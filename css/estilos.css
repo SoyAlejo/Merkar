@@ -33,7 +33,14 @@ nav ul li {
 }
 
 /* Main */
+
 #contenedor {
+	border: solid 2px;
+}
+section article {
+	border: solid 2px;
+	border-radius: 2px;
+	display: inline;
 }
 .section {
 	color: crimson;
