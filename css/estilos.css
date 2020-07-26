@@ -1,3 +1,4 @@
+/*General*/
 * {
 	margin: 0;
 }
@@ -6,14 +7,14 @@ body {
 	font-size: 1rem;
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
-
-	/* Header */
 }
+/* Header */
 h1,
 h2 {
 	text-align: center;
+	color: crimson;
 }
-nav ul {
+header nav ul {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: white;
 	padding: 1rem;
@@ -23,17 +24,28 @@ nav ul {
 	box-shadow: 0.1rem 0.1rem 1rem rgba(187, 180, 180, 0.842);
 	display: flex;
 }
-nav ul li {
+header nav ul li {
 	flex: 1 auto;
 }
-nav ul {
+header nav ul {
 	border: solid 2px;
 }
-nav ul li {
+header nav ul li {
 	list-style: none;
 }
 
 /* Main */
+section div img {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 3px;
+}
+
+section {
+	width: 70%;
+	display: inline-block;
+}
 
 section article {
 	border: solid 1px;
@@ -44,3 +56,28 @@ section article {
 .section {
 	color: crimson;
 }
+/*ASIDE*/
+aside {
+	width: 30%;
+	float: left;
+}
+aside nav ul li {
+	text-decoration: none;
+	list-style: none;
+}
+aside button {
+	background-color: white;
+	color: black;
+	display: block;
+	width: 80%;
+	margin: 3px;
+	padding: 1rem;
+	text-align: left;
+	text-decoration: none;
+	font-family: ;
+}
+button:hover {
+	background-color: crimson;
+	color: white;
+}
+/*Footer*/
