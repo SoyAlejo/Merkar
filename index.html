@@ -29,7 +29,7 @@
 							<a href="#"><img src="img/ubicacion.png" alt="Ubicación" width="2rem">UBICACIÓN</a>
 						</li>
 						<li>
-							<a href="#"><img src="img/carrito2.png" alt="Carrito de compras" width="2rem"></a>
+							<a href="#"><img src="img/carrito2.png" alt="Carrito de compras" width="100px"></a>
 						</li>
 					</ul>
 				</nav>
@@ -43,12 +43,34 @@
 			<div >
 					<nav class="navbar navbar-expand-sm bg-light navbar-light">
 						<a class="navbar-brand" href="#">
-							<img src="img/logo Merkar.png" alt="Logo" style="width: 100px;" />
+							<img id="logo" src="img/logo Merkar.png" alt="Logo Merkar" width="2rem" />
 						</a>
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<a class="nav-link" href="#">Inicio</a>
+								<a class="nav-link fa-pull-right" href="#">Inicio</a>
 							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><img src="img/icono usuario.png" alt="Usuarios" width="2rem">Ingresar</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link justify-content-end" href="#"><img src="img/ubicacion.png" alt="Ubicación" width="2rem">Ubicacion</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><img src="img/carrito2.png" alt="Carrito de compras" width="2rem"></a>
+							</li>
+
+							<form class="form-inline " action="/action_page.php">
+							<div class="input-group">
+							<div class="input-group-append">
+								<span class="input-group-text">@</span>
+							</div>
+							<input type="text" class="form-control" placeholder="Username">
+							</div>
+							</form>
+						
+	
+
+						
 						</ul>
 					</nav>
 				</div>
@@ -56,17 +78,16 @@
 				<div class="row ">
 					<aside class="col-md-4 ">
 						<H2>Categorias</H2>
-						<nav class="navbar navbar-expand-sm navbar-light">
-							<button
-								class="navbar-toggler"
-								type="button"
-								data-toggle="collapse"
-								data-target="#collapsibleNavbar"
-								>
+						<nav class="navbar navbar-light">
+							<a class="navbar-brand" href="#">Categorias</a>
+						
+
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 								<span class="navbar-toggler-icon"></span>
 							</button>
+
 							<div class="collapse navbar-collapse" id="collapsibleNavbar">
-							<ul class="nav flex-column nav-tabs">
+							<ul class="nav flex-column nav-tabs">	
 								 <li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Aseo</a>
 									<div class="dropdown-menu">
