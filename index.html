@@ -54,24 +54,32 @@
 					<aside class="col-md-4 ">
 						<H2>Categorias</H2>
 						<nav>
-							<ul>
-								<li>
-									<button>Aseo</button>
+							<ul class="nav flex-column nav-tabs">
+								 <li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Aseo</a>
+									<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Aseo Personal</a>
+									<a class="dropdown-item" href="#">Aseo </a>
+									<a class="dropdown-item" href="#">Link 3</a>
+									</div>
 								</li>
-								<li>
-									<button>Despensa</button>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Despensa</a>
 								</li>
-								<li>
-									<button>Lacteos, Huevos y Refrigerados</button>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Lacteos, Huevos y Refrigerados</a>
 								</li>
-								<li>
-									<button>Vinos y Licores</button>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Vinos y licores</a>
 								</li>
-								<li>
-									<button>Frutas y Verduras</button>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Frutas y Verduras</a>
 								</li>
-								<li>
-									<button>Belleza</button>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Belleza</a>
+								</li>
+								<li class="nav-item">
+ 								   <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
 								</li>
 							</ul>
 						</nav>
@@ -81,6 +89,11 @@
 						<h1>Merkar</h1>
 						<h2>Hipermercado a tu medida</h2>
 						<section class="col-md-12">
+							<div class="tab-content">
+							<div class="tab-pane container active" id="home">...</div>
+							<div class="tab-pane container fade" id="menu1">...</div>
+							<div class="tab-pane container fade" id="menu2">...</div>
+							</div>
 							<div>
 								<img src="img/Image.jpg" alt="" />
 							</div>
