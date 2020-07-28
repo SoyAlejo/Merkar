@@ -59,29 +59,4 @@ section div img {
 
 /*ASIDE*/
 
-aside nav ul li {
-	text-decoration: none;
-}
-
-button {
-	background-color: white;
-	color: crimson;
-	list-style: none;
-}
-aside button {
-	background-color: white;
-	color: black;
-	display: block;
-	width: 80%;
-	margin: 3px;
-	padding: 1rem;
-	text-align: left;
-	text-decoration: none;
-}
-
-button:hover {
-	background-color: crimson;
-	color: white;
-}
-
 /*Footer*/
