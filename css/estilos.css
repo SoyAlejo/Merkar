@@ -11,6 +11,44 @@ h2 {
 	color: crimson;
 }
 
+header nav {
+	background-color: #f3edf8;
+	height: 3.8rem;
+	box-shadow: inset 0.5rem -0.5rem 0.8rem #d8b8f2;
+}
+header nav ul {
+	display: flex;
+	list-style: none;
+}
+header nav ul li {
+	margin-right: 10rem;
+	margin-top: -4.2rem;
+	display: inline-block;
+}
+header nav ul li a {
+	text-decoration: none;
+	font-family: calibri;
+	font-size: 1rem;
+	color: #646464;
+	font-weight: bold;
+	display: inline-block;
+}
+header nav ul li a img {
+	width: 2rem;
+	margin: 0;
+	padding: 0;
+	display: inline-flex;
+	margin-top: -0.5rem;
+	margin-right: 0.5rem;
+}
+#logo {
+	width: 10rem;
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+}
+#inicio {
+	margin-left: 20rem;
+}
 /* Main */
 section div img {
 	width: 70%;
