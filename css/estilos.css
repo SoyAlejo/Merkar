@@ -103,6 +103,9 @@ header nav ul li span {
 }
 
 /* Main */
+main {
+	margin-top: 20px;
+}
 h1,
 h2,
 article {
@@ -130,3 +133,12 @@ div img {
 /*ASIDE*/
 
 /*Footer*/
+footer {
+	margin-top: 20px;
+	padding: 12px;
+	text-align: center;
+	background-color: ;
+}
+footer nav ul {
+	list-style: none;
+}
