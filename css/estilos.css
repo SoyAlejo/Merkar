@@ -12,8 +12,13 @@ body {
 header {
 	margin-bottom: 20px;
 }
-nav {
+header nav {
 	margin-bottom: 0px;
+	font-size: large;
+}
+header nav ul li {
+	display: inline-flexbox;
+	padding-left: 12px;
 }
 /* Main */
 main {
