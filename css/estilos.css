@@ -114,7 +114,7 @@ header nav ul li span {
 
 /*---------------------------- Main -----------------------*/
 main {
-	margin-top: 100px;
+	margin-top: 20px;
 }
 h1,
 h2,
@@ -132,9 +132,9 @@ section div {
 	margin: 1px;
 }
 .section {
-	color: crimson;
-	margin-bottom: 15px;
-	margin-top: 10px;
+	color: Black;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 div img {
 	width: 70%;
