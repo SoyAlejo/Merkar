@@ -67,6 +67,7 @@ header nav ul li span {
 		margin: 0;
 		position: fixed;
 		left: -100%;
+		z-index: 99999;
 	}
 	header nav ul li {
 		display: block;
@@ -111,7 +112,6 @@ header nav ul li span {
 		font-size: 30px;
 	}
 }
-
 /*---------------------------- Main -----------------------*/
 
 .carousel-inner img {
