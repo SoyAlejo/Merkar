@@ -171,3 +171,7 @@ footer {
 	padding: 12px;
 	text-align: center;
 }
+footer nav ul li {
+	text-decoration: none;
+	list-style: none;
+}
